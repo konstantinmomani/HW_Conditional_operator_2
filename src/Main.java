@@ -96,6 +96,8 @@ public class Main {
                 break;
             case 12:
                 System.out.println("Декабрь принадлежит к сезону зима");
+            default:
+                System.out.println("Такого месяца нет");
         }
     }
 }
