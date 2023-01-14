@@ -4,6 +4,7 @@ public class Main {
         task2();
         task3();
         task4();
+        task5();
     }
     public static void task1 () {
         System.out.println("Задача1");
@@ -50,5 +51,46 @@ public class Main {
             System.out.println("Доставки нет");
         }
 
+    }
+    public static void task5 () {
+        System.out.println("Задача5");
+        int monthNumber = 12;
+        switch (monthNumber) {
+            case 1:
+                System.out.println("Январь принадлежит к сезону зима");
+                break;
+            case 2:
+                System.out.println("Февраль принадлежит к сезону зима");
+                break;
+            case 3:
+                System.out.println("Март принадлежит к сезону весна");
+                break;
+            case 4:
+                System.out.println("Апрель принадлежит к сезону весна");
+                break;
+            case 5:
+                System.out.println("Май принадлежит к сезону весна");
+                break;
+            case 6:
+                System.out.println("Июнь принадлежит к сезону лето");
+                break;
+            case 7:
+                System.out.println("Июль принадлежит к сезону лето");
+                break;
+            case 8:
+                System.out.println("Август принадлежит к сезону лето");
+                break;
+            case 9:
+                System.out.println("Сентябрь принадлежит к сезону осень");
+                break;
+            case 10:
+                System.out.println("Октябрь принадлежит к сезону осень");
+                break;
+            case 11:
+                System.out.println("Ноябрь принадлежит к сезону осень");
+                break;
+            case 12:
+                System.out.println("Декабрь принадлежит к сезону зима");
+        }
     }
 }
