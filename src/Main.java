@@ -53,7 +53,7 @@ public class Main {
         } else if (deliveryDistance > 60 && deliveryDistance < 100) {
             System.out.println("Потребуется дней: 3");
         } else {
-            System.out.println("Доставки нет");
+            System.out.println("Доставки нет!");
         }
 
     }
@@ -96,6 +96,8 @@ public class Main {
                 break;
             case 12:
                 System.out.println("Декабрь принадлежит к сезону зима");
+            default:
+                System.out.println("Такого месяца нет");
         }
     }
 }
